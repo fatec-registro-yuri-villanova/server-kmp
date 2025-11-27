@@ -14,7 +14,7 @@ fun main() {
 fun Application.module() {
     routing {
         get("/") {
-            call.respondText("Yuri Ktor: ${Greeting().greet()}")
+            call.respondText("Render Ktor: ${Greeting().greet()}")
         }
     }
 }
